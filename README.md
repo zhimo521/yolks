@@ -41,22 +41,32 @@
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_8`
   * [`java8 - OpenJ9`](https://github.com/pterodactyl-china/yolks/tree/master/java/8j9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_8j9`
+  * [`java8 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/8zulu)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_8zulu`
   * [`java11`](https://github.com/pterodactyl-china/yolks/tree/master/java/11)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_11`
   * [`java11 - OpenJ9`](https://github.com/pterodactyl-china/yolks/tree/master/java/11j9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_11j9`
+  * [`java11 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/11zulu)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_11zulu`
   * [`java16`](https://github.com/pterodactyl-china/yolks/tree/master/java/16)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_16`
   * [`java16 - OpenJ9`](https://github.com/pterodactyl-china/yolks/tree/master/java/16j9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_16j9`
+  * [`java16 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/16zulu)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_16zulu`
   * [`java17`](https://github.com/pterodactyl-china/yolks/tree/master/java/17)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_17`
   * [`java17 - OpenJ9`](https://github.com/pterodactyl-china/yolks/tree/master/java/17j9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_17j9`
+  * [`java17 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/17zulu)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_17zulu`
   * [`java18`](https://github.com/pterodactyl-china/yolks/tree/master/java/18)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_18`
   * [`java18 - OpenJ9`](https://github.com/pterodactyl-china/yolks/tree/master/java/18j9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_18j9`
+  * [`java18 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/18zulu)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_18zulu`
 * [`nodejs`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs)
   * [`node12`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs/12)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_12`
