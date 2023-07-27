@@ -30,6 +30,8 @@ jobs:
           - 18
           - 18j9
           - 18zulu
+          - 19
+          - 19j9
     steps:
       - uses: actions/checkout@v3
       - uses: docker/setup-qemu-action@v2
@@ -41,7 +43,7 @@ jobs:
           registry: registry.cn-shanghai.aliyuncs.com
           username: ${{ secrets.REPOSITORY_OWNER }}
           password: ${{ secrets.REGISTRY_TOKEN }}
-      - uses: docker/build-push-action@v3
+      - uses: docker/build-push-action@v4
         with:
           context: ./java
           file: ./java/${{ matrix.tag }}/Dockerfile
