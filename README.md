@@ -97,11 +97,13 @@
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:python_3.9`
   * [`python3.10`](https://github.com/pterodactyl-china/yolks/tree/master/python/3.10)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:python_3.10`
+  * [`python3.11`](https://github.com/pterodactyl-china/yolks/tree/master/python/3.11)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:python_3.11`
 
 ### 安装镜像
 
 * [`alpine-install`](https://github.com/pterodactyl-china/yolks/tree/master/installers/alpine)
   * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/installers:alpine`
 
-* [`debian-install`](https://github.com/pterodactyl-china/yolks/tree/master/installers/debian) 该镜像暂时不支持 `linux/arm64`
+* [`debian-install`](https://github.com/pterodactyl-china/yolks/tree/master/installers/debian) (该镜像暂时不支持 `linux/arm64`)
   * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/installers:debian`
