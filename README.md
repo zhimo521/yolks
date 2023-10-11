@@ -100,10 +100,8 @@
 
 ### 安装镜像
 
-这些镜像暂时不支持 linux/arm64
-
 * [`alpine-install`](https://github.com/pterodactyl-china/yolks/tree/master/installers/alpine)
   * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/installers:alpine`
 
-* [`debian-install`](https://github.com/pterodactyl-china/yolks/tree/master/installers/debian)
+* [`debian-install`](https://github.com/pterodactyl-china/yolks/tree/master/installers/debian) 该镜像暂时不支持 `linux/arm64`
   * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/installers:debian`
