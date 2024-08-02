@@ -28,11 +28,11 @@ if [[ "${FRAMEWORK}" == "carbon" ]]; then
 
 elif [[ "$OXIDE" == "1" ]] || [[ "${FRAMEWORK}" == "oxide" ]]; then
     # Oxide: https://github.com/OxideMod/Oxide.Rust
-   # echo "XiaZai uMod..."
+    echo "XiaZai uMod..."
    # curl -sSL "https://aimei521.oss-cn-beijing.aliyuncs.com/Oxide.Rust-linux.zip" > umod.zip
   #  unzip -o -q umod.zip
    # rm umod.zip
-  #  echo "Done updating uMod!"
+    echo "Done updating uMod!"
 # else Vanilla, do nothing
 fi
 
