@@ -26,18 +26,18 @@ if [[ "${FRAMEWORK}" == "carbon" ]]; then
     export DOORSTOP_TARGET_ASSEMBLY="$(pwd)/carbon/managed/Carbon.Preloader.dll"
     MODIFIED_STARTUP="LD_PRELOAD=$(pwd)/libdoorstop.so ${MODIFIED_STARTUP}"
 
-elif [[ "$OXIDE" == "1" ]] || [[ "${FRAMEWORK}" == "oxide" ]]; then
+#elif [[ "$OXIDE" == "1" ]] || [[ "${FRAMEWORK}" == "oxide" ]]; then
     # Oxide: https://github.com/OxideMod/Oxide.Rust
-    echo "XiaZai uMod..."
-    curl -sSL "https://aimei521.oss-cn-beijing.aliyuncs.com/Oxide.Rust-linux.zip" > umod.zip
-    unzip -o -q umod.zip
-    rm umod.zip
-    echo "Done updating uMod!"
+   # echo "XiaZai uMod..."
+   # curl -sSL "https://aimei521.oss-cn-beijing.aliyuncs.com/Oxide.Rust-linux.zip" > umod.zip
+  #  unzip -o -q umod.zip
+   # rm umod.zip
+  #  echo "Done updating uMod!"
 # else Vanilla, do nothing
-fi
+#fi
 
 # Fix for Rust not starting
-export LD_LIBRARY_PATH=$(pwd)/RustDedicated_Data/Plugins/x86_64:$(pwd)
+#export LD_LIBRARY_PATH=$(pwd)/RustDedicated_Data/Plugins/x86_64:$(pwd)
 
 # Run the Server
 node /wrapper.js "${MODIFIED_STARTUP}"
