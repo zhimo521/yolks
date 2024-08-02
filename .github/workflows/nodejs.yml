@@ -42,4 +42,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_${{ matrix.tag }}
+            registry.cn-shanghai.aliyuncs.com/zhimo/yolks:nodejs_${{ matrix.tag }}
